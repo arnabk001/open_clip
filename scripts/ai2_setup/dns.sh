@@ -1,3 +1,4 @@
+#!/bin/bash
 pip install img2dataset
 
 # Knot resolver
