@@ -8,7 +8,7 @@ torchrun --nproc_per_node 2 --master_port 3233 -m training.main \
     --gather-with-grad \
     --local-loss \
     --force_mrl_loss \
-    --mrl_loss_weights "0.1,0.15,0.2,0.25,0.3" \
+    --mrl_loss_weights "1,1,1,1,1" \
     --mrl_dim_to_consider "768,384,192,96,48" \
     --batch-size 512 \
     --accum-freq 1 \
